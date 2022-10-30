@@ -66,7 +66,6 @@ def start_game(pencils, players, player_turn):
         pencils_taken = get_taken_pencil(pencils, is_jack_player_turn)
         pencils -= pencils_taken
         player_turn = next_player(players, player_turn)
-
     print(f"{player_turn} won!")
 
 
